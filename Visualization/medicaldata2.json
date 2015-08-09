@@ -1,0 +1,139 @@
+{
+    "children": [
+        {
+            "value": 522.718134298, 
+            "name": "Edema (782.3)", 
+            "bins": "High"
+        }, 
+        {
+            "value": 1867.7121029399998, 
+            "name": "Hypertension (401.1)", 
+            "bins": "High"
+        }, 
+        {
+            "value": 2385.4041013300002, 
+            "name": "Hyperlipidemia (272.2)", 
+            "bins": "High"
+        }, 
+        {
+            "value": 771.0092480899999, 
+            "name": "Hypertension                                                                                                                                                                                                                                          (401)", 
+            "bins": "High"
+        }, 
+        {
+            "value": 1120.8283072000002, 
+            "name": "Hyperlipidemia (272.4)", 
+            "bins": "HighMedium"
+        }, 
+        {
+            "value": 508.64495376, 
+            "name": "Influenza Vaccine (V04.81)", 
+            "bins": "HighMedium"
+        }, 
+        {
+            "value": 1790.3096099699999, 
+            "name": "Hypertension (401.9)", 
+            "bins": "HighMedium"
+        }, 
+        {
+            "value": 876.5581021309999, 
+            "name": "Hypercholesterolemia (272.0)", 
+            "bins": "HighMedium"
+        }, 
+        {
+            "value": 614.193807801, 
+            "name": "VitaminD deficiency (268.9)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 1041.41535987, 
+            "name": "Cough (786.2)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 905.70969039, 
+            "name": "Hypothyroidism (244.9)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 1291.71692803, 
+            "name": "Esophageal reflux (530.81)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 877.563329312, 
+            "name": "UTI (599.0)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 1354.0410132700001, 
+            "name": "Bronchitis (466.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 1394.25010052, 
+            "name": "Lumbago (724.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 925.814234017, 
+            "name": "Upper Resp Infections (465.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 817.2496984320001, 
+            "name": "Malaise & Fatigue (780.79)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 943.908323281, 
+            "name": "Rhinitis (477.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 633.2931242459999, 
+            "name": "Tobacco Disorder (305.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 619.219943707, 
+            "name": "Anxiety (300.02)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 513.6710896660001, 
+            "name": "Rhinitis                                                                                                                                                                                                                                               (477)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 655.408122236, 
+            "name": "Insomnia (780.52)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 645.355850422, 
+            "name": "Depressive disorder(311)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 538.8017692000001, 
+            "name": "Headache (784.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 1574.18576598, 
+            "name": "MedicalExam (V70.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 791.113791717, 
+            "name": "Anxiety(300.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 779.0510655410001, 
+            "name": "Sinusitis (461.9)", 
+            "bins": "Low"
+        }
+    ]
+}

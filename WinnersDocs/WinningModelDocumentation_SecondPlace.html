@@ -1,0 +1,411 @@
+<html><h1>Winning Model Documentation</h1>
+<p><strong>Name</strong>: Matt Berseth</p>
+<p><strong>Location</strong>: Jacksonville FL</p>
+<p><strong>Competition</strong>: Practice Fusion Diabetes Classification</p>
+<hr />
+<h2>1. Summary</h2>
+<p>To extract features I created a script that allowed me to create features by specifying individual diagnosis codes, groups of diagnosis codes or a fuzzy match on the diagnosis description. I have provided more details on this in section 2.</p>
+<p>I used boosted trees as my base learners. I blended my best learners linearly and used the coefficients to weight the contribution of each individual learner.</p>
+<p>The primary data source that I used was wikipedia's page on type 2 diabetes [1]. I went through this page and mapped each of the complicating conditions with their ICD9 codes / groups. In addition to wikipedia, I also leveraged HCUP [2] and cross-walked some of the ICD9 codes to their ICD10 groupings [3].</p>
+<hr />
+<h2>2. Features Selection / Extraction</h2>
+<p>In total, I extracted nearly 400 features from the training data. These features can be categorized into the following buckets:</p>
+<ol>
+<li>
+<p>Patient features: {Age, Gender, BMI, blood pressure, etc ...}</p>
+<ul>
+<li>These features were derived from the transcript table. Here is a sample of these features:<ul>
+<li>Age</li>
+<li>BodyMassIndex</li>
+<li>Weight</li>
+<li>MaxWeight</li>
+<li>MinWeight</li>
+<li>DiastolicBP</li>
+<li>SystolicBP</li>
+<li>etc ...</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Diagnosis features: {Most frequent ICD9 code, Has occurrence of specific code like hyperlipidemia or hypertension or any of the other ICD9 codes that could be considered complicating conditions.}</p>
+<ul>
+<li>These features were derived from the diagnosis tables. Here is a sample of these features:<ul>
+<li>ICD9<code>_</code>01, ICD9<code>_</code>02 ... ICD9<code>_</code>07</li>
+<li>HasAlzheimers</li>
+<li>HadStroke</li>
+<li>HasMixedHyperlipidemia</li>
+<li>HasRenalDisease</li>
+</ul>
+</li>
+<li>I also found it helpful to include counts for diagnosis codes that were being treated with medications. Here is a sample of these features:<ul>
+<li>MedDxHasCongestiveHeartFailure</li>
+<li>MedDxHasDepression</li>
+<li>MedDxHasHyperlipidemia</li>
+<li>MedDxHasRenalDisease</li>
+<li>MedICD9<code>_</code>01 ... MedICD9<code>_</code>04</li>
+</ul>
+</li>
+<li>Finally, I also found it useful to look at the ICD9 level groupings. So I included features for each of the levels:<ul>
+<li>DxLevel1<code>_</code>280<code>_</code>289</li>
+<li>DxLevel2<code>_</code>240<code>_</code>246</li>
+<li>DxLevel2<code>_</code>249<code>_</code>259</li>
+<li>etc ...</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Medication features: {Most frequent NDC/drug name, Has occurrence of specific NDC/drug name}<ul>
+<li>These features were derived from the medication tables. Here is a sample of some of these features:<ul>
+<li>NDC<code>_</code>01 .. NDC<code>_</code>04</li>
+<li>IsOnCoregOralTablet</li>
+<li>IsOnCozaarOralTablet</li>
+<li>IsOnLisinopril</li>
+<li>etc ...</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Provider features: {Specialty of the providers that were visited, Did they visit providers the other diabetics visited}<ul>
+<li>These features were derived from the transcript table as well as the diagnosis and medication tables:<ul>
+<li>SawDiabetesSpecialist</li>
+<li>SawNephrologySpecialist</li>
+<li>SawPodiatrySpecialist</li>
+<li>SawPrescriptionUser_1353</li>
+<li>SawTranscriptUser_104</li>
+<li>etc ...</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Counts: {Number of Diagnosis, Number of Medications, Number of Transcripts, etc ...}<ul>
+<li>These features are aggregate counts from all of the tables:<ul>
+<li>DXUniqueCount</li>
+<li>HL7TextUniqueCount</li>
+<li>MedUniqueCount</li>
+<li>MedPerTranscriptCount</li>
+<li>MedPerTranscriptYears</li>
+<li>DxRelatedToDiabetesCount</li>
+<li>PrescriptionCount</li>
+<li>SpecialtyCount</li>
+<li>etc ...</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Higher Order Features<ul>
+<li>I also clustered the patients based on different groups of the above features and added features for the probability a given patient was in each of the clusters. I used the same clusters to add features marking each patient with an outlier probability based on the cluster model:<ul>
+<li>DMX<code>_</code>DrugProfile<code>_</code>ClusterNumber</li>
+<li>DMX<code>_</code>DrugProfile<code>_</code>Cluster1Prob ... DMX_DrugProfile<code>_</code>Cluster5Prob</li>
+<li>DMX<code>_</code>DxLevelClusters<code>_</code>ClusterNumber</li>
+<li>DMX<code>_</code>DxLevelClusters<code>_</code>Cluster1Prob ... DMX<code>_</code>DxLevelClusters<code>_</code>Cluster5Prob</li>
+</ul>
+</li>
+<li>I also included a set of features for comorbidities. These features were counts of the number of major chronic conditions a patient was dealing with:<ul>
+<li>CoMorbidityCount</li>
+<li>HasHypertensionAndHyperlipidemia</li>
+<li>OnlyCoMorbidityIsHeartDisease</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Data Features<ul>
+<li>Features that are a by product of how the data was collected<ul>
+<li>NullTranscriptDataCellPercent</li>
+<li>MedNameIsNull</li>
+<li>MedHasNoCorrespondingDx</li>
+<li>etc ...</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>From these feature groups, I selected feature by doing the following:</p>
+<ol>
+<li>Looked at [1] to determine what conditions commonly occur with type 2 diabetes</li>
+<li>Looked at the data and determined what features listed above commonly occur with the patients that are marked as having type 2 diabetes</li>
+<li>Used random forests and boosted trees to rank and weight the features</li>
+<li>Used a genetic algorithm to search the feature space</li>
+</ol>
+<hr />
+<h2>3. Modeling Techniques and Training</h2>
+<p>My base learners were boosted trees. I used cross validation on the training data to select model parameters to use. My best submissions used some where between 275 to 375 trees, a learning rate of 0.1, had a maximum depth of 3 and required 20-30 cases in each of the leaf nodes. </p>
+<p>I had different learners based on different sets of the above features. These base learners were blended linearly using the weights of the coefficients to weight each of the learners contribution to the overall prediction.</p>
+<p>I also used clustering models to segment the patients to develop a drug profile, patient profile (age, weight, bmi, etc ...) and a diagnosis profile. These models were also used to generate outlier features (i.e. given the cluster model, how likely is the case data).</p>
+<p>The external data sources I used was primarily wikipedia [1]. I also included features from HCUP [2] and ICD10 cross-walk [3].</p>
+<hr />
+<h2>4. Code Description</h2>
+<p>I used a combination of .Net/C#, SQL Sever and Python to create my solution. I stored the data in a sql server database and used a utility console application to generate the features from the training tables. After the features were generated, I exported the training and test case tables to flat files and used this as input into my python scripts that contained the actual model.</p>
+<p>The source tree I used has the following structure</p>
+<pre><code>/source
+    /attic
+    /extternal_data
+    /last_weekend_notes
+    /net
+    /notes
+    /python
+    /R
+    /sql
+</code></pre>
+<p>The <code>attic</code> is for any prototype code. <code>external_data</code> was to keep track of my data sources. <code>last_weekend_notes</code> was from my last push at finalizing my model. I had started to look at the gbm R package and compare that to the python packages I was using. <code>R</code> contains some of this work as well. <code>notes</code> has general notes that I was taking along the way, mostly regarding the feature selection.</p>
+<p>The <code>sql net</code> and <code>python</code> folders are the most important directories. <code>sql</code> contains a number of scripts that I used to clean the data. It also contains the analysis services project I used to create the cluster models.</p>
+<p>The <code>net</code> folder contains a visual studio project and corresponding C# code for generating the features. The solution, <code>ml_practice_fusion</code>, contains 3 projects:</p>
+<pre><code>ml_practice_fusion
+ml_practice_fusion.etl
+ml_practice_fusion.etl.features
+</code></pre>
+<p><code>ml_practice_fusion</code> contains common code like connection strings and data access logic. <code>ml_practice_fusion.etl</code> is the driver application and entry point. It also contains some basic file parsing and generation logic. </p>
+<p>Finally, the majority of code in the last project, <code>ml_practice_fusion.etl.features</code>. This project has a class file for each feature. The class is responsible for adding the column to the test and training case tables and populating it with the proper value. </p>
+<p>For example, some of my most important features were groups of ICD9 codes - either matching a pattern on the actual code, or the diagnosis description. For these types of features, I created a base class that would handle the generic processing and then have the derived class specify the actual expression that needs to be matched on.</p>
+<p>Concretely, here is the class definition for my <code>HasHypertension</code> feature:</p>
+<pre><code>public class DxFeature_HasHypertension : DxFeature
+{
+    public DxFeature_HasHypertension()
+    : base()
+    {
+        this.ColumnName = "HasHypertension";
+        this.LikeExpressions.Add("40[1-5]%");
+    }
+}
+</code></pre>
+<p>You can see, this class is just metadata, defining the column name and the like expression to use. A majority of the features are generated following a similar pattern.</p>
+<p>All of the models are created using the python scikit-learn [4] package. Like the .net project, I have a couple of files for common things. The <code>io.py</code> file contains logic to read/write csv files. <code>score.py</code> implements the log loss function and <code>features.py</code> contains different listing of features.</p>
+<p>Individual models, the base learners I used as input into my blending/stacking routine, were trained using <code>model.py</code>. <code>model.py</code> contains an eval function that is passed a set of features and a tree classifier from the scikits ensemble module. I used this common function to train and cross validate <code>GradientBoostingClassifier</code>, <code>ExtraTreesClassifier</code> and <code>RandomForestClassifier</code>. The <code>run.py</code> file was used to setup the model and features and then call the model.eval function. Here is an example:</p>
+<pre><code>import numpy as np
+import model
+import features
+from sklearn.ensemble import GradientBoostingClassifier as gb
+
+f = features.submission21
+loss = model.eval(f, gb(n_estimators=300, learn_rate=.1, max_depth=3, random_state=1))
+print 'Avg Loss:', np.mean(loss), np.std(loss)
+</code></pre>
+<p>In this example, I am using the features I used for my 21st submission, passing this and the <code>GradientBoostingClassifier</code> to my <code>model.eval</code> function. <code>model.eval</code> returns the log loss for each fold of the cross validation.</p>
+<p>Blended models are trained and cross validated using the <code>stack.py</code>. Like <code>model.eval</code>, <code>stack</code> has a similar interface, except it takes a list of features and models. Here is an example:</p>
+<pre><code>items = [
+    {
+        'clf': gb(n_estimators=400, learn_rate=.09, max_depth=3, max_features=10, min_samples_leaf=30, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=400, max_depth=3, max_features=10, min_samples_leaf=30, learn_rate=.09, random_state=1),
+        'features': features.next_submission_v2
+    },
+    {
+        'clf': gb(n_estimators=400, max_depth=3, max_features=10, min_samples_leaf=30, learn_rate=.09, random_state=1),
+        'features': features.beat_blind_ape
+    }
+]
+eval(items)
+</code></pre>
+<p><code>grid_search.py</code> is used to attempt tune the model parameters. The top of this file includes custom classifiers that allow plugging in the log loss for the evaluation/scoring. I used <code>ga.py</code> to search the feature space to attempt to identify groups of features that worked well together.</p>
+<p><code>submit.py</code> contains the logic for submitting a blended model.</p>
+<hr />
+<h2>5. How to Generation the Solution (aka README)</h2>
+<p>The training and test data are in the root of the solution directory. They are <code>dbo.training_Features.csv</code> and <code>dbo.test_Features.csv</code>. To recreate the solution, do the following:</p>
+<p>I used the following 5 submissions as my final submissions</p>
+<ol>
+<li>
+<p>submission 41</p>
+<pre><code>items = [
+    {
+        'clf': gb(n_estimators=300, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.next_submission_v2
+    },
+    {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.next_submission_v1
+    },
+    {
+        'clf': gb(n_estimators=300, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.next_submission_v1
+    },
+    {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=325, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=375, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=325, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=375, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=400, learn_rate=.09, max_depth=3, max_features=10, min_samples_leaf=30, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=400, max_depth=3, max_features=10, min_samples_leaf=30, learn_rate=.09, random_state=1),
+        'features': features.next_submission_v2
+    },
+    {
+        'clf': gb(n_estimators=400, max_depth=3, max_features=10, min_samples_leaf=30, learn_rate=.09, random_state=1),
+        'features': features.beat_blind_ape
+    },
+    {
+        'clf': gb(n_estimators=400, max_depth=3, max_features=10, min_samples_leaf=30, learn_rate=.09, random_state=1),
+        'features': features.next_submission_v1
+    },
+]
+</code></pre>
+</li>
+<li>
+<p>submission 38</p>
+<pre><code>items = [
+        {
+        'clf': gb(n_estimators=300, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.next_submission_v2
+    },
+        {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.next_submission_v1
+    },
+        {
+        'clf': gb(n_estimators=300, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.next_submission_v1
+    },
+        {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=325, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=375, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=325, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=375, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=300, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.beat_blind_ape
+    },
+        {
+        'clf': gb(n_estimators=300, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.beat_blind_ape
+    }
+]
+</code></pre>
+</li>
+<li>
+<p>submission 36 / 37</p>
+<pre><code>items = [
+        {
+        'clf': gb(n_estimators=300, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.next_submission_v2
+    },
+        {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.next_submission_v1
+    },
+        {
+        'clf': gb(n_estimators=300, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.next_submission_v1
+    },
+        {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=325, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=375, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=325, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=375, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    }
+]
+</code></pre>
+</li>
+<li>
+<p>submission 34</p>
+<pre><code>items = [
+        {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=325, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+        {
+        'clf': gb(n_estimators=375, max_depth=3, min_samples_leaf=20, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=275, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=325, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    },
+    {
+        'clf': gb(n_estimators=375, max_depth=3, min_samples_leaf=30, min_samples_split=10, learn_rate=.1, random_state=1),
+        'features': features.submission21
+    }
+]
+</code></pre>
+</li>
+</ol>
+<p>To generate the above five submissions do the following:</p>
+<ol>
+<li>Open <code>submit.py</code></li>
+<li>Check the value of the path variables, point those to the proper locations</li>
+<li>Copy the <code>items</code> list from the submission above.<ul>
+<li>Note: submission 37 was trained on <code>dbo.training_Features_no_outliers.csv</code>, so you will need to update the training file path before you generate the scored file</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2>6. Additional Comments and Observations</h2>
+<p>Trust your cross validation scores and use the public leaderboard as a measurement of competitiveness. When I selected my final models for submission, I picked the models with the lowest cross-validation scores, not the ones with the lowest public leaderboard scores. This worked well for me in this competition, using this formula, I ended up picking my five best models.</p>
+<hr />
+<h2>7. Figures</h2>
+<p>I did not generate any interesting figures or plots as part of my analysis.</p>
+<hr />
+<h2>8. References</h2>
+<ol>
+<li><code>http://en.wikipedia.org/wiki/Diabetes_mellitus_type_2</code></li>
+<li><code>http://www.ahrq.gov/data/hcup/</code></li>
+<li><code>http://www.ama-assn.org/ama1/pub/upload/mm/399/crosswalking-between-icd-9-and-icd-10.pdf</code></li>
+<li><code>http://scikit-learn.org/stable/</code></li>
+</ol></html>

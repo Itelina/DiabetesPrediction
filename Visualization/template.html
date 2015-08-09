@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>TRIAL</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    
+<style>
+.label { fill: white; }
+</style>
+</head>
+<body>
+  
+<script>
+
+var svg = d3.select("body").append("svg")
+  .attr("width",1000)
+  .attr("height", 1000)
+
+
+d3.json("data2.json", function(json) {
+	/* Define the data for the circles */
+	var elem = svg.selectAll("g")
+		.data(json.nodes)
+	
+	/*Create and place the "blocks" containing the circle and the text */  
+	var elemEnter = elem.enter()
+		.append('g')
+	
+	/*Create the circle for each block */
+	var circle = elemEnter.append("circle")
+		.attr("r", function(d){return 0} )
+  		.attr("cx", function(d){return d.cx} )
+  		.attr("cy", function(d) {return d.cy} )
+  		.attr("fill", function(d) {if(d.r == '10') {return "red"}
+                          else if(d.r == '20') {return "blue"}
+                          else if(d.r == '30') {return "green"}
+                          else if(d.r == '40') {return "orange"}
+                          else if(d.r == '50') {return "black"}
+                          })              
+  		.style("fill-opacity", .7)
+ 		.style("stroke-width",".2em")
+  		.style("stroke",function(d) { if( d.r == '10' ) { return "red"}
+                          else if( d.r == '20' ) { return "blue"}
+                          else if( d.r == '30' ) { return "green"}
+                          else if( d.r == '40' ) { return "orange"}
+                          else if( d.r == '50' ) { return "black"}
+                          })
+        .transition()
+    	.duration(1500)
+    	.attr("r", function(d){return d.r} );
+    
+    /* Create the text for each block */ 
+	elemEnter.append('text')
+     .attr("class", "label")
+     .attr("x", function(d){ return d['cx']})
+     .attr("y", function(d){ return d['cy']})
+     .attr("dy", '0.2em')
+     .attr("text-anchor", "middle")
+     .text(function(d){return d.label})    
+     
+    d3.selectAll("circle").on("mouseover", somethingCool);
+	d3.selectAll("g").on("mouseover", reallyCool);                                  
+})
+
+d3.selectAll("circle").on
+
+
+function somethingCool() {
+	
+  		d3.select(this)
+   		.transition()
+    	.duration(2000)
+    	.attr("r", function(d) { return d.r2; });   
+    }
+
+function reallyCool() {
+ 		d3.select(this)
+    	.transition()
+    	.duration(2000)
+    	.ease("elastic")
+  		.delay(200)
+    	.attr("transform", function(d) {
+      			return "translate("+(d.cx2-d.cx)+","+(d.cy2-d.cy)+")";});
+	}	    
+
+</script>
+</body>
+</html>

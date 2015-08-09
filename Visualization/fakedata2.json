@@ -1,0 +1,20 @@
+{
+"name": "Root",
+"children": [
+	{
+	"name": "High",
+	"children": [
+		{"name": "Hyperlipidemia (272.2)", "size": 2385},
+		{"name": "Edema (782.3)", "size": 522}
+				]
+	},
+	{
+	"name": "High-Medium",
+	"children": [
+		{"name": "Lumbago (724.2)", "size": 1394},
+		{"name": "Anxiety (300.02)", "size": 619}
+				]
+	}
+			]
+}
+	

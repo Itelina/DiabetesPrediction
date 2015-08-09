@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+text {
+  font: 11px sans-serif;
+}
+
+.label { 
+	fill: white; 
+}
+
+.legends { 
+	fill: black; 
+}
+
+.wrapper {
+    /** Top padding so that initially, the content is below the header **/
+    padding-top: 120px;
+
+}
+
+.header {
+    height: 0px;
+    width: 100%; /** Use 100% to fill the width of the page **/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: white;
+    font: 20px sans-serif;
+}
+
+img.banner {
+    display: block;
+    margin: 0 auto;
+} 
+
+table.legend {
+    top: 175px;
+    position: absolute;
+    left: 8%;
+    font: 10px sans-serif;
+}
+
+table.legend td:first-child {
+	width: 20px;
+}
+
+.header .description {
+	font: 15px sans-serif;
+	width:50%
+}
+
+</style>
+
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+
+<div class="wrapper">
+    <div class="header">
+        <center><h1>Diseases Linked to Diabetes (II) </h1></center>
+        <center><p class="description">This visualization shows <b>correlation</b> between diabetes type II and other common conditions. The <b>size of the circle</b> represents prevalence of the specific disease.</p></center>
+        <table class="legend">
+        	<tr>
+        		<th colspan="2"> Prevalence of Diabetes </th>
+        	</tr>
+        	<tr>
+        		<td style="background-color: #d7301f"> </td>
+        		<td> Highest (70% and above) </td>
+        	</tr>
+        	<tr>
+        		<td style="background-color: #fb6a4a"> </td>
+        		<td> Medium (48% - 70%) </td>
+        	</tr>
+        	<tr>
+        		<td style="background-color: #fcae91"> </td>
+        		<td> Medium-Low (24% - 48%) </td>
+        	</tr>
+        	<tr>
+        		<td style="background-color: #fee5d9"> </td>
+        		<td> Low (Less than 24%) </td>
+        	</tr>
+        </table>
+    </div>
+</div>
+
+<script>
+
+var diameter = 1100,
+    format = d3.format(",d");
+
+var bubble = d3.layout.pack()
+    .sort(null)
+    .size([diameter, diameter])
+    .padding(1);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", diameter)
+    .attr("height", diameter)
+    .attr("class", "bubble");
+
+    
+d3.json("medicaldata.json", function(error, root) {
+  if (error) throw error;
+
+  var node = svg.selectAll(".node")
+      .data(bubble.nodes(root)
+      .filter(function(d) { return !d.children; }))
+    .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+
+  node.append("title")
+      .text(function(d) { return d.name + ": " + format(d.value); });
+
+  node.append("circle")
+      .attr("r", function(d) { return 0; })
+      .style("fill", function(d) { if( d.bins == 'High' ) { return '#d7301f'; }
+      							else if( d.bins == 'Medium' ) { return '#fb6a4a'; }
+      							else if( d.bins == 'MediumLow' ) { return '#fcae91'; }
+      							else if( d.bins == 'Low' ) { return '#fee5d9'; }
+      							; })
+      .transition()
+      .duration(3000)
+      //.ease("elastic")
+      //.delay(300)
+      .attr("r", function(d) { return d.r; });
+
+  node.append("text")
+      .attr("dy", ".3em")
+      .attr("class", "label")
+      .style("text-anchor", "middle")
+      .text(function(d) { return d.name.substring(0, d.r / 3); });
+      
+	node.selectAll('circle').on("mouseover", function(){
+			d3.select(this)
+			.transition()
+    		.duration(1000)
+    		.attr("r", function(d) { return d.r*1.2; })
+    		})
+    
+    node.selectAll('circle').on("mouseout", function(){
+			d3.select(this)
+			.transition()
+    		.duration(500)
+    		.attr("r", function(d) { return d.r; });
+    		})
+      
+});
+
+d3.select(self.frameElement).style("height", diameter + "px");
+    
+
+</script>
+
+</body>
+</html>

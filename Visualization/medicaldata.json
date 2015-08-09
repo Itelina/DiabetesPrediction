@@ -1,0 +1,4119 @@
+{
+    "children": [
+        {
+            "value": 49.2561318858, 
+            "name": "Diabetes mellitus type I [insulin dependent type] [IDDM] [juvenile type], not stated as uncontrolled, with neurological manifestations (250.61)", 
+            "bins": "High"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Chronic kidney disease, Stage IV (severe) (585.4)", 
+            "bins": "High"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Ulcer of other part of foot (707.15)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Anemia in chronic kidney disease (285.21)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Systolic heart failure, chronic (428.22)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Malignant hypertensive heart disease with heart failure (402.01)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Osteoarthrosis, localized, secondary, involving lower leg (715.26)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Gastroparesis (536.3)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 49.2561318858, 
+            "name": "Hyperpotassemia (276.7)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Coronary atherosclerosis of autologous biological bypass graft (414.02)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Chronic kidney disease, Stage II (mild) (585.2)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 142.742259751, 
+            "name": "Chronic kidney disease, Stage III (moderate) (585.3)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Cellulitis and abscess of toe, unspecified (681.10)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Chronic kidney disease, Stage I (585.1)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 29.1515882589, 
+            "name": "Chronic renal failure                                                                                                                                                                                                                                           (585)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 73.381584238, 
+            "name": "Proteinuria (791.0)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 79.4129473261, 
+            "name": "Chronic kidney disease, unspecified (585.9)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 127.663852031, 
+            "name": "Coronary atherosclerosis of unspecified type of vessel, native or graft (414.00)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Anemia in chronic illness                                                                                                                                                                                                                                       (285.2)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Chronic renal failure (585.)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 132.689987937, 
+            "name": "Congestive heart failure, unspecified (428.0)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Dermatophytosis of other specified sites (110.8)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Cellulitis and abscess of finger, unspecified (681.00)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Simple chronic bronchitis (491.0)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Coronary atherosclerosis of artery bypass graft (414.04)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "End stage renal disease (585.6)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Osteoarthrosis, unspecified whether generalized or localized, involving lower leg (715.96)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 158.825894652, 
+            "name": "Peripheral vascular disease, unspecified (443.9)", 
+            "bins": "Medium"
+        }, 
+        {
+            "value": 73.381584238, 
+            "name": "Need for prophylactic vaccination against Streptococcus pneumoniae [pneumococcus] (V03.82)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Atherosclerosis of native arteries of the extremities, unspecified (440.20)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Outlet dysfunction constipation (564.02)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Altered mental status (780.97)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Secondary hyperparathyroidism (of renal origin) (588.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 178.93043827900001, 
+            "name": "Abnormality of gait (781.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Psychosexual dysfunction                                                                                                                                                                                                                                        (302.7)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Diastolic heart failure, chronic (428.32)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "type I diabetes mellitus [juvenile type], uncontrolled, without mention of complication (250.03)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 111.580217129, 
+            "name": "Malignant essential hypertension (401.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 47.24567752310001, 
+            "name": "Personal history of noncompliance with medical treatment, presenting hazards to health (V15.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Acute venous embolism and thrombosis of unspecified deep vessels of lower extremity (453.40)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Unspecified cerebrovascular disease (437.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Nondependent oth, mixed, or unspecified drug abuse                                                                                                                                                                                                              (305.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 58.30317651789999, 
+            "name": "Other specified idiopathic peripheral neuropathy (356.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Thrombocytopenia, unspecified (287.5)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Occlusion and stenosis of carotid artery                                                                                                                                                                                                                        (433.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Hypoxemia (799.02)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Unspecified cataract (366.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 33.1724969843, 
+            "name": "Unspecified disorder of kidney and ureter (593.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Hyperplasia of prostate, unspecified, without urinary obstruction and other lower urinary symptoms (LUTS) (600.90)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 57.2979493366, 
+            "name": "Venous (peripheral) insufficiency, unspecified (459.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 31.162042621599998, 
+            "name": "Need for prophylactic vaccination and inoculation against other viral diseases (V04.89)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Unspecified testicular dysfunction (257.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 274.427020507, 
+            "name": "Coronary atherosclerosis of native coronary artery (414.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Calcaneal spur (726.73)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Other accidental falls from one level to anOther                                                                                                                                                                                                                (E884)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Other acute and subacute forms of ischemic heart disease (411.89)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Chronic obstructive asthma, without mention of status asthmaticus (493.20)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Other peripheral vascular disease (443.89)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Personal history of malignant neoplasm of prostate (V10.46)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 54.2822677925, 
+            "name": "type I diabetes mellitus [insulin dependent type] [IDDM] [juvenile type], not stated as uncontrolled, without mention of complication (250.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 72.3763570567, 
+            "name": "Osteoarthrosis, generalized, involving unspecified site (715.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 50.261359067099995, 
+            "name": "Osteoarthrosis, localized, primary, involving ankle and foot (715.17)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Osteoarthrosis, unspecified whether generalized or localized, involving ankle and foot (715.97)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Hypotension, unspecified (458.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Nontoxic multinodular goiter (241.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 33.1724969843, 
+            "name": "Inappropriate diet and eating habits (V69.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Other emphysema (492.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 74.38681141939999, 
+            "name": "Other specified acquired hypothyroidism (244.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 97.50703659030002, 
+            "name": "Arthropathy, unspecified, site unspecified (716.90)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Cerebral artery occlusion, unspecified, with cerebral infarction (434.91)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 251.30679533599996, 
+            "name": "Anemia, unspecified (285.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Cramp of limb (729.82)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 162.846803378, 
+            "name": "Osteoarthrosis, localized, primary, involving pelvic region and thigh (715.15)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 81.4234016888, 
+            "name": "Senile dementia, uncomplicated (290.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Postsurgical aortocoronary bypass status (V45.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Transient ischemic attack (TIA), and cerebral infarction without residual deficits (V12.54)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 92.4809006836, 
+            "name": "Unspecified idiopathic peripheral neuropathy (356.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 29.1515882589, 
+            "name": "Unspecified glaucoma (365.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Unspecified late effects of cerebrovascular disease (438.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Pneumonia, unspec. (486)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Corn/callus (700)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 189.98793727400002, 
+            "name": "Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptoms (LUTS) (600.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Angina pectoris                                                                                                                                                                                                                                                 (413)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 377.96542018499997, 
+            "name": "Osteoarthrosis, localized, primary, involving lower leg (715.16)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Candidiasis of other specified sites (112.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Percutaneous transluminal coronary angioplasty, postsurgical status (V45.82)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Peptic ulcer of unspecified site, unspecified as acute or chronic, without mention of hemorrhage or perforation, without mention of obstruction (533.90)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 91.4756735022, 
+            "name": "Coronary atherosclerosis                                                                                                                                                                                                                                        (414.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 35.182951347, 
+            "name": "Parkinson's disease                                                                                                                                                                                                                                             (332)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 522.718134298, 
+            "name": "Edema (782.3)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 54.2822677925, 
+            "name": "Gouty arthropathy, unspecified (274.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 1867.7121029399998, 
+            "name": "Benign essential hypertension (401.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Benign secondary hypertension (405.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Frequency of urination and polyuria (788.4)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Unspecified hypertensive heart disease with heart failure (402.91)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 49.2561318858, 
+            "name": "Unspecified transient cerebral ischemia (435.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 79.4129473261, 
+            "name": "Osteoarthrosis, unspecified whether generalized or localized, involving unspecified site (715.90)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 36.18817852829999, 
+            "name": "Cellulitis and abscess of foot, except toes (682.7)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Acute gingivitis (523.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Bronchitis, not specified as acute or chronic (490.)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 2385.4041013300002, 
+            "name": "Mixed hyperlipidemia (272.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 45.2352231604, 
+            "name": "Infectious colitis, enteritis, and gastroenteritis (009.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 31.162042621599998, 
+            "name": "Swelling, mass, or lump in head and neck (784.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 31.162042621599998, 
+            "name": "Calculus of gallbladder without mention of cholecystitis, without mention of obstruction (574.20)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Swelling of limb (729.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Hypoglycemia, unspecified (251.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Other pulmonary embolism and infarction (415.19)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Mixed incontinence (female) (male) (788.33)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Paralysis agitans (332.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 138.72135102500002, 
+            "name": "Dermatophytosis of foot (110.4)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Occlusion and stenosis of carotid artery, without mention of cerebral infarction (433.10)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Cardiomyopathy                                                                                                                                                                                                                                                  (425)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 61.3188580619, 
+            "name": "Hypertonicity of bladder (596.51)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 32.167269803, 
+            "name": "Olecranon bursitis (726.33)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 73.381584238, 
+            "name": "Herpes zoster without mention of complication (053.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 73.381584238, 
+            "name": "Urinary incontinence, unspecified (788.30)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 126.65862484899999, 
+            "name": "Cellulitis and abscess of leg, except foot (682.6)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 103.538399678, 
+            "name": "Hypertrophy (benign) of prostate with urinary obstruction and other lower urinary tract symptoms (LUTS) (600.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 56.2927221552, 
+            "name": "Psychosexual dysfunction with inhibited sexual excitement (302.72)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 62.3240852433, 
+            "name": "Hyposmolality and/or hyponatremia (276.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 65.3397667873, 
+            "name": "Unspecified sleep apnea (780.57)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 113.59067149200001, 
+            "name": "Gout, unspecified (274.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Chronic tension type headache (339.12)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Hepatitis, unspecified (573.3)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Organic sleep apnea, unspecified (327.20)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 54.2822677925, 
+            "name": "Simple type schizophrenia, chronic state (295.02)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 54.2822677925, 
+            "name": "Sleep related leg cramps (327.52)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 33.1724969843, 
+            "name": "Chronic venous hypertension with other complication (459.39)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Leukocytosis, unspecified (288.60)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 205.06634499400002, 
+            "name": "Pure hyperglyceridemia (272.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Intrinsic asthma with acute exacerbation (493.12)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Conjunctival hemorrhage (372.72)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Contact dermatitis and other eczema due to other specified agents (692.89)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Other hammer toe (acquired) (735.4)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Dementias                                                                                                                                                                                                                                                       (290)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Asymptomatic postmenopausal status (age-related) (natural) (V49.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Osteoarthrosis, localized, primary, multiple sites (715.19)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Chronic kidney disease, Stage V (585.5)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Tension type headache, unspecified (339.10)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Atherosclerosis of native arteries of the extremities with intermittent claudication (440.21)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 232.20747889000003, 
+            "name": "Other abnormal glucose (790.29)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 180.94089264200002, 
+            "name": "Osteoarthrosis, generalized, involving multiple sites (715.09)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 771.0092480899999, 
+            "name": "Essential hypertension                                                                                                                                                                                                                                          (401)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 98.5122637716, 
+            "name": "Elevated prostate specific antigen [PSA] (790.93)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Other psoriasis and similar disorders excluding psoriatic arthropathy (696.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Other specified cardiac dysrhythmias (427.89)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Intervertebral disc disorder with myelopathy, lumbar region (722.73)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Old myocardial infarction (412.)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 93.48612786489998, 
+            "name": "Other vitamin B12 deficiency anemia (281.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Other specified diseases of nail (703.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Onychia and paronychia of finger (681.02)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Macular degeneration (senile) of retina, unspecified (362.50)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 147.768395657, 
+            "name": "Gout                                                                                                                                                                                                                                                            (274)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Hemoptysis (786.3)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Acute pancreatitis (577.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Generalized and unspecified atherosclerosis (440.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 107.55930840399998, 
+            "name": "Prophylactic vaccination/inoculation against influenza (V04.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 63.3293124246, 
+            "name": "Acute nonsuppurative otitis media, unspecified (381.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 41.21431443510001, 
+            "name": "Chronic ischemic heart disease, unspecified (414.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 41.21431443510001, 
+            "name": "Chronic airway obstruction, not elsewhere classified (496.)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 95.4965822276, 
+            "name": "Hypopotassemia (276.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Other specified local infections of skin and subcutaneous tissue (686.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Acute ethmoidal sinusitis (461.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 1120.8283072000002, 
+            "name": "Other and unspecified hyperlipidemia (272.4)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 214.113389626, 
+            "name": "Morbid obesity (278.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 249.296340973, 
+            "name": "Obstructive sleep apnea (adult) (pediatric) (327.23)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 35.182951347, 
+            "name": "Other acute otitis externa (380.22)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Other affections of shoulder region, not elsewhere classified (726.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Cerebral thrombosis, with cerebral infarction (434.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Cholelithiasis                                                                                                                                                                                                                                                  (574)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 32.167269803, 
+            "name": "Counseling on substance use and abuse (V65.42)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 32.167269803, 
+            "name": "Malignant neoplasm of breast (female), unspecified (174.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 61.3188580619, 
+            "name": "Cellulitis and abscess of trunk (682.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 58.30317651789999, 
+            "name": "Other, mixed, or unspecified drug abuse, unspecified use (305.90)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 71.3711298754, 
+            "name": "Screening for osteoporosis (V82.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 424.205870527, 
+            "name": "COPD, NOS (496)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Heartburn (787.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Cellulitis and abscess of hand, except fingers and thumb (682.4)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 62.3240852433, 
+            "name": "Nocturia (788.43)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 508.64495376, 
+            "name": "Need for prophylactic vaccination and inoculation against influenza (V04.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 49.2561318858, 
+            "name": "Sinoatrial node dysfunction (427.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 36.18817852829999, 
+            "name": "Other and unspecified angina pectoris (413.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 1790.3096099699999, 
+            "name": "Unspecified essential hypertension (401.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Osteoarthrosis, generalized, involving hand (715.04)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Rheumatoid arthritis and other inflam polyarthropathies                                                                                                                                                                                                         (714)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Trigeminal neuralgia (350.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Bell's palsy (351.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 79.4129473261, 
+            "name": "Nonspecific abnormal results of function study of liver (794.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 93.48612786489998, 
+            "name": "Hypertrophy (Benign) of prostate                                                                                                                                                                                                                                (600.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 50.261359067099995, 
+            "name": "Peripheral vertigo, unspecified (386.10)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Other noninfectious gastroenteritis and colitis (558.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Trigger finger (acquired) (727.03)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 80.41817450740001, 
+            "name": "Muscle weakness (generalized) (728.87)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Personal history of venous thrombosis and embolism (V12.51)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Personal history of malignant neoplasm of breast (V10.3)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 284.47929232, 
+            "name": "Osteoporosis, unspecified (733.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Glaucoma                                                                                                                                                                                                                                                        (365)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Atherosclerosis of aorta (440.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 85.44431041419999, 
+            "name": "Screening for malignant neoplasms of colon (V76.51)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 51.266586248500005, 
+            "name": "Preoperative cardiovascular examination (V72.81)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Obstructive chronic bronchitis                                                                                                                                                                                                                                  (491.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 51.266586248500005, 
+            "name": "Acute bronchitis and bronchiolitis                                                                                                                                                                                                                              (466)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Urge incontinence (788.31)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 68.35544833130001, 
+            "name": "Undiagnosed cardiac murmurs (785.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Pernicious anemia (281.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 51.266586248500005, 
+            "name": "Screening for depression (V79.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 174.909529554, 
+            "name": "Other testicular hypofunction (257.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 48.2509047045, 
+            "name": "Other chronic nonalcoholic liver disease (571.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 79.4129473261, 
+            "name": "Memory loss NOS (780.93)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 38.198632890999995, 
+            "name": "Unspecified hearing loss (389.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 136.710896663, 
+            "name": "Dysmetabolic syndrome X (277.7)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 35.182951347, 
+            "name": "Diarrhea of presumed infectious origin (009.3)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 77.40249296340001, 
+            "name": "Unspecified gastritis and gastroduodenitis, without mention of hemorrhage (535.50)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Organic insomnia, unspecified (327.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Spinal stenosis of cervical region (723.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 35.182951347, 
+            "name": "Other specified visual disturbances (368.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 271.411338963, 
+            "name": "Impotence of organic origin (607.84)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 123.642943305, 
+            "name": "Loss of weight (783.21)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 116.606353036, 
+            "name": "Syncope and collapse (780.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 102.53317249700001, 
+            "name": "Calculus of kidney (592.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 876.5581021309999, 
+            "name": "Pure hypercholesterolemia (272.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 32.167269803, 
+            "name": "Otalgia                                                                                                                                                                                                                                                         (388.7)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 222.15520707700003, 
+            "name": "Nonspecific abnormal electrocardiogram [ECG] [EKG] (794.31)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Varicose veins of lower extremities with inflammation (454.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Barrett's esophagus (530.85)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Hyperplasia of prostate (600.)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 68.35544833130001, 
+            "name": "Other convulsions (780.39)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 129.674306393, 
+            "name": "Other B-complex deficiencies (266.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Abdominal aortic aneurysm without mention of rupture (441.4)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Hemorrhage of gastrointestinal tract, unspecified (578.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Other specified pruritic conditions (698.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 90.47044632090001, 
+            "name": "Family history of diabetes mellitus (V18.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Mild cognitive impairment, so stated (331.83)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 94.49135504620001, 
+            "name": "Obstructive chronic bronchitis with (acute) exacerbation (491.21)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 47.24567752310001, 
+            "name": "Dyspnea and respiratory abnormalities                                                                                                                                                                                                                           (786.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 141.73703256899998, 
+            "name": "Benign hypertensive heart disease without heart failure (402.10)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 29.1515882589, 
+            "name": "Degeneration of intervertebral disc, site unspecified (722.6)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 29.1515882589, 
+            "name": "Iron deficiency anemia secondary to inadequate dietary iron intake (280.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 420.18496180099993, 
+            "name": "Obesity                                                                                                                                                                                                                                                         (278.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 33.1724969843, 
+            "name": "Tinnitus, unspecified (388.30)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 448.331322879, 
+            "name": "Obesity, unspecified (278.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 74.38681141939999, 
+            "name": "Osteoarthrosis, localized, primary, involving shoulder region (715.11)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 152.79453156399998, 
+            "name": "Iron deficiency anemia, unspecified (280.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Hypersomnia with sleep apnea, unspecified (780.53)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Postsurgical hypothyroidism (244.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Asymptomatic varicose veins (454.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 127.663852031, 
+            "name": "Unspecified hypertensive heart disease without heart failure (402.90)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Insomnia with sleep apnea, unspecified (780.51)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Major depressive disorder, single episode, mild degree (296.21)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Throat pain (784.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Other symptoms involving cardiovascular system (785.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Other abnormal clinical findings (796.4)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "History of contact with and (suspected) exposure to potentially hazardous body fluids (V15.85)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Keratoderma, acquired (701.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Alcohol abuse, continuous drinking behavior (305.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Chronic obstructive asthma                                                                                                                                                                                                                                      (493.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 60.31363088060001, 
+            "name": "Blood in stool (578.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 64.334539606, 
+            "name": "Essential and other specified forms of tremor (333.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 49.2561318858, 
+            "name": "Rotator cuff syndrome of shoulder and allied disorders                                                                                                                                                                                                          (726.1)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Unspecified disorder of skin and subcutaneous tissue (709.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 68.35544833130001, 
+            "name": "Malignant neoplasm of prostate (185.)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Adhesive capsulitis of shoulder (726.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 38.198632890999995, 
+            "name": "Spondylosis of unspecified site without mention of myelopathy (721.90)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 57.2979493366, 
+            "name": "Stress incontinence, female (625.6)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Conductive hearing loss, unspecified (389.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Unspecified gastritis and gastroduodenitis                                                                                                                                                                                                                      (535.5)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 137.716123844, 
+            "name": "Encounter for long-term (current) use of anticoagulants (V58.61)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 99.51749095299999, 
+            "name": "Dermatophytosis of the body (110.5)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 196.01930036200002, 
+            "name": "Major depressive disorder, single episode, moderate degree (296.22)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Effusion of lower leg joint (719.06)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Other specified preoperative examination (V72.83)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 46.2404503418, 
+            "name": "Slow transit constipation (564.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 77.40249296340001, 
+            "name": "Sprain of unspecified site of shoulder and upper arm (840.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Unilateral or unspecified inguinal hernia, without mention of obstruction or gangrene (not specified as recurrent) (550.90)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Atopic dermatitis and related conditions                                                                                                                                                                                                                        (691)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 54.2822677925, 
+            "name": "Intestinal infection due to other organism, not elsewhere classified (008.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 81.4234016888, 
+            "name": "Chronic hepatitis C without mention of hepatic coma (070.54)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 116.606353036, 
+            "name": "Rheumatoid arthritis (714.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 31.162042621599998, 
+            "name": "Abnormal involuntary movements (781.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 97.50703659030002, 
+            "name": "Other dyspnea and respiratory abnormality (786.09)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 66.3449939686, 
+            "name": "Cellulitis and abscess of face (682.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 105.54885404100001, 
+            "name": "Pain in joint involving multiple sites (719.49)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 35.182951347, 
+            "name": "Candidiasis of skin and nails (112.3)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 43.2247687977, 
+            "name": "Abdominal pain, left upper quadrant (789.02)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 193.003618818, 
+            "name": "Degeneration of lumbar or lumbosacral intervertebral disc (722.52)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 110.57498994799998, 
+            "name": "Senile osteoporosis (733.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 59.3084036992, 
+            "name": "Hematuria (599.7)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 59.3084036992, 
+            "name": "Screening for malignant neoplasms of prostate (V76.44)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 79.4129473261, 
+            "name": "Bacterial pneumonia, unspecified (482.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 314.63610775999996, 
+            "name": "Atrial fibrillation (427.31)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 239.24406916, 
+            "name": "Vitamin d deficiency                                                                                                                                                                                                                                            (268)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 200.04020908700002, 
+            "name": "Constipation (564.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Dermatophytosis of scalp and beard (110.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Unspecified ventral hernia without mention of obstruction or gangrene (553.20)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Supraventricular premature beats (427.61)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 64.334539606, 
+            "name": "Senile cataract, unspecified (366.10)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Generalized hyperhidrosis (780.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 52.27181342979999, 
+            "name": "Nausea and vomiting (787.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Dysphagia (787.2)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Cardiac pacemaker in situ (V45.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Bronchopneumonia, organism unspecified (485.)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Bicipital tenosynovitis (726.12)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Acute allergic mucoid otitis media (381.05)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Otogenic pain (388.71)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Cataract                                                                                                                                                                                                                                                        (366)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Polyuria (788.42)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Benign hypertensive heart disease with heart failure (402.11)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 80.41817450740001, 
+            "name": "Abdominal pain, right lower quadrant (789.03)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Cerebral embolism, with cerebral infarction (434.11)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 32.167269803, 
+            "name": "Rotator cuff (capsule) sprain (840.4)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Alcohol abuse, unspecified drinking behavior (305.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Cystitis, unspecified (595.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Spasmodic torticollis (333.83)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Spontaneous ecchymoses (782.7)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 349.81905910699993, 
+            "name": "Pain in limb (729.5)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 236.228387616, 
+            "name": "Constipation, unspecified (564.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 77.40249296340001, 
+            "name": "Tachycardia, unspecified (785.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 98.5122637716, 
+            "name": "Mitral valve insufficiency and aortic valve insufficiency (396.3)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 45.2352231604, 
+            "name": "Other abnormal blood chemistry (790.6)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 45.2352231604, 
+            "name": "Herpes zoster                                                                                                                                                                                                                                                   (053)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 45.2352231604, 
+            "name": "Seborrheic dermatitis, unspecified (690.10)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 86.44953759549999, 
+            "name": "Wheezing (786.07)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 41.21431443510001, 
+            "name": "Cardiac dysrhythmia, unspecified (427.9)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 41.21431443510001, 
+            "name": "Nontoxic uninodular goiter (241.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 156.81544029000003, 
+            "name": "Abdominal pain, unspecified site (789.00)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 33.1724969843, 
+            "name": "Acute gouty arthropathy (274.01)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 58.30317651789999, 
+            "name": "Hypertension (997.91)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 141.73703256899998, 
+            "name": "Osteoarthrosis, generalized                                                                                                                                                                                                                                     (715.0)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 54.2822677925, 
+            "name": "Influenza                                                                                                                                                                                                                                                       (487)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Other specified forms of chronic ischemic heart disease (414.8)", 
+            "bins": "MediumLow"
+        }, 
+        {
+            "value": 71.3711298754, 
+            "name": "Onychia and paronychia of toe (681.11)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 63.3293124246, 
+            "name": "Unspec adverse effect of drug due to proper administration (995.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 168.87816646599998, 
+            "name": "Other atopic dermatitis and related conditions (691.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 143.74748693200002, 
+            "name": "Dyspepsia and other specified disorders of function of stomach (536.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 101.527945316, 
+            "name": "Acute laryngopharyngitis (465.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 177.92521109799998, 
+            "name": "Chronic pain syndrome (338.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 118.61680739799999, 
+            "name": "Chest pain                                                                                                                                                                                                                                                      (786.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 97.50703659030002, 
+            "name": "Acute conjunctivitis, unspecified (372.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 38.198632890999995, 
+            "name": "Hypercalcemia (275.42)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 38.198632890999995, 
+            "name": "Intrinsic asthma without mention of status asthmaticus (493.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 310.615199035, 
+            "name": "Reflux esophagitis (530.11)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 272.416566144, 
+            "name": "Contact dermatitis and other eczema, unspecified cause (692.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Incomplete bladder emptying (788.21)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Other anxiety states (300.09)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Major depressive disorder, single episode, severe degree, without mention of psychotic behavior (296.23)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Uric acid nephrolithiasis (274.11)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 136.710896663, 
+            "name": "Actinic keratosis (702.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Unspecified disorder of carbohydrate transport and metabolism (271.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Pain in joint involving other specified sites (719.48)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 81.4234016888, 
+            "name": "Decreased libido (799.81)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 614.193807801, 
+            "name": "Unspecified vitamin D deficiency (268.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 425.21109770800007, 
+            "name": "Allergic rhinitis due to other allergen (477.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Counseling on other sexually transmitted diseases (V65.45)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 103.538399678, 
+            "name": "Persistent disorder of initiating or maintaining sleep (307.42)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 121.632488943, 
+            "name": "Benign paroxysmal positional vertigo (386.11)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 52.27181342979999, 
+            "name": "Cellulitis and abscess of upper arm and forearm (682.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 78.4077201448, 
+            "name": "Personal history of colonic polyps (V12.72)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 65.3397667873, 
+            "name": "Pain in joint                                                                                                                                                                                                                                                   (719.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Lumbosacral spondylosis without myelopathy (721.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 35.182951347, 
+            "name": "Benign neoplasm of skin, site unspecified (216.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 449.33655006000004, 
+            "name": "Dizziness and giddiness (780.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 57.2979493366, 
+            "name": "Major depressive disorder, single episode                                                                                                                                                                                                                       (296.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 66.3449939686, 
+            "name": "Unspecified pruritic disorder (698.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Sialoadenitis (527.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 301.568154403, 
+            "name": "Diarrhea (787.91)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 84.4390832328, 
+            "name": "Dermatophytosis of groin and perianal area (110.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 84.4390832328, 
+            "name": "Obstructive chronic bronchitis, without exacerbation (491.20)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 151.789304383, 
+            "name": "Acute cystitis (595.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 1041.41535987, 
+            "name": "Cough (786.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 98.5122637716, 
+            "name": "Infective otitis externa, unspecified (380.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 179.93566546000002, 
+            "name": "Pain in joint involving pelvic region and thigh (719.45)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 905.70969039, 
+            "name": "Unspecified hypothyroidism (244.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 284.47929232, 
+            "name": "Shortness of breath (786.05)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Other specified congenital anomalies of skin (757.39)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Colonic polyps (V18.51)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 90.47044632090001, 
+            "name": "Depressive disorder, not elsewhere classified (311.)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Mastodynia (611.71)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Varicose veins of the lower extremities with other complications (454.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 36.18817852829999, 
+            "name": "Temporomandibular joint disorders, unspecified (524.60)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 36.18817852829999, 
+            "name": "Acute atopic conjunctivitis (372.05)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 86.44953759549999, 
+            "name": "Ingrowing nail (703.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 1291.71692803, 
+            "name": "Esophageal reflux (530.81)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 877.563329312, 
+            "name": "Urinary tract infection, site not specified (599.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 41.21431443510001, 
+            "name": "Extrinsic asthma with acute exacerbation (493.02)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 41.21431443510001, 
+            "name": "Anorexia (783.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 178.93043827900001, 
+            "name": "Sciatica (724.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 64.334539606, 
+            "name": "Urinary incontinence                                                                                                                                                                                                                                            (788.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 32.167269803, 
+            "name": "Varicose veins of lower extremities                                                                                                                                                                                                                             (454)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Right bundle branch block (426.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Major depressive disorder, recurrent episode, mild degree (296.31)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 129.674306393, 
+            "name": "Diverticulosis of colon (without mention of hemorrhage) (562.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 60.31363088060001, 
+            "name": "Orthostatic hypotension (458.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Dysphagia, unspecified (787.20)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 65.3397667873, 
+            "name": "Epistaxis (784.7)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 397.06473663, 
+            "name": "Pain in joint involving lower leg (719.46)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Other psoriasis and similar disorders (696.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Intrinsic asthma                                                                                                                                                                                                                                                (493.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Abnormal mammogram, unspecified (793.80)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 140.731805388, 
+            "name": "Abnormal weight gain (783.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Cough variant asthma (493.82)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Scabies (133.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 89.46521913950001, 
+            "name": "Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH] (790.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 108.564535585, 
+            "name": "Disorders of bursae and tendons in shoulder region, unspecified (726.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 344.79292320099995, 
+            "name": "Unspecified chest pain (786.50)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 47.24567752310001, 
+            "name": "Chronic rhinitis (472.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 113.59067149200001, 
+            "name": "Sebaceous cyst (706.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 1354.0410132700001, 
+            "name": "Acute bronchitis (466.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 33.1724969843, 
+            "name": "Acute prostatitis (601.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 52.27181342979999, 
+            "name": "Enthesopathy of hip region (726.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 52.27181342979999, 
+            "name": "Cellulitis and abscess of unspecified sites (682.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 1394.25010052, 
+            "name": "Lumbago (724.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Anal or rectal pain (569.42)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Cyst of kidney, acquired (593.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Functional diarrhea (564.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Peptic ulcer, site unspecified                                                                                                                                                                                                                                  (533)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 38.198632890999995, 
+            "name": "Influenza with other respiratory manifestations (487.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Exercise counseling (V65.41)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 152.79453156399998, 
+            "name": "Other chest pain (786.59)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 258.343385605, 
+            "name": "Rash and other nonspecific skin eruption (782.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 86.44953759549999, 
+            "name": "Spinal stenosis of lumbar region (724.02)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 67.35022115, 
+            "name": "Dietary surveillance and counseling (V65.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Pneumonia, organism unspecified (486.)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 144.752714113, 
+            "name": "Preoperative examination, unspecified (V72.84)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Chronic maxillary sinusitis (473.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 328.70928829900004, 
+            "name": "Impacted cerumen (380.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 77.40249296340001, 
+            "name": "Asthma, unspecified type, with acute exacerbation (493.92)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 53.27704061119999, 
+            "name": "Diaphragmatic hernia without mention of obstruction or gangrene (553.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 116.606353036, 
+            "name": "Other chronic pain (338.29)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Urgency of urination (788.63)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 122.63771612400001, 
+            "name": "Acute frontal sinusitis (461.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 211.09770808200003, 
+            "name": "Pain in joint involving ankle and foot (719.47)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 236.228387616, 
+            "name": "Dysthymic disorder (300.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 98.5122637716, 
+            "name": "Acute gastritis, without mention of hemorrhage (535.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 54.2822677925, 
+            "name": "Other and unspecified disc disorder of lumbar region (722.93)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 182.95134700399998, 
+            "name": "Disturbance of skin sensation (782.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 128.669079212, 
+            "name": "Neck sprain (847.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 148.773622839, 
+            "name": "Extrinsic asthma without mention of status asthmaticus (493.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Chronic sinusitis                                                                                                                                                                                                                                               (473)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 35.182951347, 
+            "name": "Cellulitis and abscess of other specified sites (682.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Cellulitis and abscess of oral soft tissues (528.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Cellulitis and abscess of buttock (682.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 45.2352231604, 
+            "name": "Unspecified deficiency anemia (281.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 50.261359067099995, 
+            "name": "Iron deficiency anemia secondary to blood loss (chronic) (280.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Esophagitis, unspecified (530.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Benign neoplasm of skin of trunk, except scrotum (216.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 60.31363088060001, 
+            "name": "Dehydration (276.51)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Seborrhea (706.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Open wound of fingers, without mention of complication (883.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Idiopathic peripheral autonomic neuropathy (337.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Head injury, unspecified (959.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Methicillin resistant Staphylococcus aureus in conditions classified elsewhere and of unspecified site (041.12)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Sprain of medial collateral ligament of knee (844.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Other specified gastritis                                                                                                                                                                                                                                       (535.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Epilepsy, unspecified, without mention of intractable epilepsy (345.90)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Unspecified adverse effect of unspecified drug, medicinal and biological substance (995.20)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 301.568154403, 
+            "name": "Pain in joint involving shoulder region (719.41)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Hirsutism (704.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Arthropathy, unspecified, involving shoulder region (716.91)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 141.73703256899998, 
+            "name": "Abdominal pain, right upper quadrant (789.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 925.814234017, 
+            "name": "Acute upper respiratory infections of unspecified site (465.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 219.139525533, 
+            "name": "Encounter for long-term (current) use of other medications (V58.69)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 46.2404503418, 
+            "name": "Iron deficiency anemias                                                                                                                                                                                                                                         (280)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 817.2496984320001, 
+            "name": "Other malaise and fatigue (780.79)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 174.909529554, 
+            "name": "Osteoporosis                                                                                                                                                                                                                                                    (733.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 207.07679935700003, 
+            "name": "Dermatophytosis of nail (110.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 67.35022115, 
+            "name": "Candidiasis of mouth (112.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Hearing loss                                                                                                                                                                                                                                                    (389)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Nonspecific reaction to tuberculin skin test without active tuberculosis (795.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 52.27181342979999, 
+            "name": "Seborrheic keratosis (702.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 943.908323281, 
+            "name": "Allergic rhinitis, cause unspecified (477.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 47.24567752310001, 
+            "name": "Aortic valve disorders (424.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Thoracic sprain (847.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Prostatitis, unspecified (601.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "New daily persistent headache (339.42)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 121.632488943, 
+            "name": "Lumbar sprain (847.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 100.522718134, 
+            "name": "Unspecified viral infection in conditions classified elsewhere and of unspecified site (079.99)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Cervical spondylosis without myelopathy (721.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 303.578608766, 
+            "name": "Malaise and fatigue (780.7)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 69.36067551270001, 
+            "name": "Major depressive disorder, single episode, unspecified degree (296.20)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Contact dermatitis and other eczema due to detergents (692.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Presbyopia (367.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 112.58544431, 
+            "name": "Acute nasopharyngitis [common cold] (460.)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Encounter for removal of sutures (V58.32)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Lymphadenitis, acute (683)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Blepharitis, unspecified (373.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Sprain of other specified sites of knee and leg (844.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 48.2509047045, 
+            "name": "Hyperplasia of prostate                                                                                                                                                                                                                                         (600)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Retention of urine, unspecified (788.20)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 43.2247687977, 
+            "name": "Pain in joint involving forearm (719.43)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 633.2931242459999, 
+            "name": "Tobacco use disorder (305.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 70.365902694, 
+            "name": "Diverticulitis of colon without mention of hemorrhage (562.11)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 249.296340973, 
+            "name": "Spasm of muscle (728.85)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 162.846803378, 
+            "name": "Carpal tunnel syndrome (354.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Sprains and strains of other unspecified parts of back                                                                                                                                                                                                          (847)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 76.39726578209999, 
+            "name": "Hemorrhage of rectum and anus (569.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 273.42179332499995, 
+            "name": "Asthma                                                                                                                                                                                                                                                          (493)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 208.082026538, 
+            "name": "Irritable bowel syndrome (564.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 71.3711298754, 
+            "name": "Pain in joint, site unspecified (719.40)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Nonspecific abnormal findings on radiological and other examination of lung field (793.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Dog bite (E906.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 99.51749095299999, 
+            "name": "Restless legs syndrome (RLS) (333.94)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 66.3449939686, 
+            "name": "Abnormal loss of weight (783.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 44.229995979099996, 
+            "name": "Postmenopausal atrophic vaginitis (627.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 407.117008444, 
+            "name": "Overweight (278.02)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 95.4965822276, 
+            "name": "Pain in joint involving hand (719.44)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 56.2927221552, 
+            "name": "Dermatophytosis of unspecified site (110.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 56.2927221552, 
+            "name": "Acute bronchospasm (519.11)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 619.219943707, 
+            "name": "Generalized anxiety disorder (300.02)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 73.381584238, 
+            "name": "Flatulence, eructation, and gas pain (787.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 135.705669481, 
+            "name": "Plantar fascial fibromatosis (728.71)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 62.3240852433, 
+            "name": "Adjustment disorder with mixed anxiety and depressed mood (309.28)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 68.35544833130001, 
+            "name": "Abdominal pain, other specified site; multiple sites (789.09)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Other and unspecified alcohol dependence, in remission (303.93)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Pleurisy                                                                                                                                                                                                                                                        (012.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Other osteoporosis (733.09)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 51.266586248500005, 
+            "name": "Other chronic allergic conjunctivitis (372.14)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Contact dermatitis and other eczema due to other chemical products (692.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 85.44431041419999, 
+            "name": "Contact dermatitis and other eczema                                                                                                                                                                                                                             (692)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Seborrheic dermatitis (690.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 513.6710896660001, 
+            "name": "Allergic rhinitis                                                                                                                                                                                                                                               (477)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 159.83112183400002, 
+            "name": "Urinary frequency (788.41)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 154.80498592700002, 
+            "name": "Nausea alone (787.02)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 103.538399678, 
+            "name": "Abdominal pain, left lower quadrant (789.04)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 316.64656212299997, 
+            "name": "Nonorganic sleep disorder, unspecified (307.40)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Other tenosynovitis or hand and wrist (727.05)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Intervertebral disc disorder with myelopathy, cervical region (722.71)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 138.72135102500002, 
+            "name": "Common cold (460)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 46.2404503418, 
+            "name": "Psoriasis and similar disorders                                                                                                                                                                                                                                 (696)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Osteoarthrosis involving or with mention of multiple sites, but not specified as generalized (715.89)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 104.54362686, 
+            "name": "Family history of ischemic heart disease (V17.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 35.182951347, 
+            "name": "Renal colic (788.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 41.21431443510001, 
+            "name": "Classical migraine                                                                                                                                                                                                                                              (346.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 47.24567752310001, 
+            "name": "Colitis, enteritis, and gastroenteritis of presumed infectious origin (009.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 228.186570165, 
+            "name": "Asthma, unspecified type, without mention of status asthmaticus (493.90)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Contact or exposure to other viral diseases (V01.79)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Infective otitis externa                                                                                                                                                                                                                                        (380.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Cervical spondylosis with myelopathy (721.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Raynaud's syndrome (443.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Internal hemorrhoids without mention of complication (455.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Malignant neoplasm of female breast                                                                                                                                                                                                                             (174)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Acute nonsuppurative otitis media                                                                                                                                                                                                                               (381.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Elevated C-reactive protein (CRP) (790.95)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Gastritis and duodenitis                                                                                                                                                                                                                                        (535)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 277.44270205099997, 
+            "name": "Backache, unspecified (724.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Bipolar affective disorder, mixed, unspecified degree (296.60)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 36.18817852829999, 
+            "name": "Posttraumatic stress disorder (309.81)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Obsessive-compulsive disorders (300.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 326.69883393599997, 
+            "name": "Myalgia and myositis, unspecified (729.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 279.453156413, 
+            "name": "Impaired fasting glucose (790.21)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 268.395657419, 
+            "name": "Acute maxillary sinusitis (461.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 655.408122236, 
+            "name": "Insomnia, unspecified (780.52)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 55.2874949739, 
+            "name": "Allergic urticaria (708.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 43.2247687977, 
+            "name": "Hordeolum externum (373.11)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 123.642943305, 
+            "name": "Nausea with vomiting (787.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Hemorrhoids                                                                                                                                                                                                                                                     (455)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 111.580217129, 
+            "name": "Acquired hypothyroidism                                                                                                                                                                                                                                         (244)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 148.773622839, 
+            "name": "Abdominal pain, epigastric (789.06)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Dyshidrosis (705.81)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "High-risk sexual behavior (V69.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 31.162042621599998, 
+            "name": "Premenopausal menorrhagia (627.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 31.162042621599998, 
+            "name": "Unspecified vitamin B deficiency (266.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 87.4547647768, 
+            "name": "Acute upper respiratory infections of other multiple sites (465.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 112.58544431, 
+            "name": "Abdominal pain, generalized (789.07)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 645.355850422, 
+            "name": "Depressive disorder, NOS (311)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 50.261359067099995, 
+            "name": "HIV disease (042)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Unspecified visual disturbance (368.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 69.36067551270001, 
+            "name": "Bipolar disorder, unspecified (296.80)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 44.229995979099996, 
+            "name": "Other bursitis disorders (727.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 107.55930840399998, 
+            "name": "Acute suppurative otitis media without spontaneous rupture of ear drum (382.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Symptomatic states associated with artificial menopause (627.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Other otitis externa (380.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 38.198632890999995, 
+            "name": "Laboratory examination ordered as part of a routine general medical examination (V72.62)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Tear film insufficiency, unspecified (375.15)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 358.866103739, 
+            "name": "Thoracic or lumbosacral neuritis or radiculitis, unspecified (724.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 83.4338560515, 
+            "name": "Lateral epicondylitis (726.32)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 122.63771612400001, 
+            "name": "Otalgia, unspecified (388.70)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 45.2352231604, 
+            "name": "Acute laryngitis (464.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 58.30317651789999, 
+            "name": "Neuralgia, neuritis, and radiculitis, unspecified (729.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 58.30317651789999, 
+            "name": "Transient disorder of initiating or maintaining sleep (307.41)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 149.77885002, 
+            "name": "Abdominal pain (789.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Counseling NOS (V65.40)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Polyneuropathy in other diseases classified elsewhere (357.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 65.3397667873, 
+            "name": "Other specified diseases of hair and hair follicles (704.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Unspecified endocrine disorder (259.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 46.2404503418, 
+            "name": "Unspecified general medical examination (V70.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 205.06634499400002, 
+            "name": "Anxiety states                                                                                                                                                                                                                                                  (300.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 99.51749095299999, 
+            "name": "Neoplasm of uncertain behavior of skin (238.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 538.8017692000001, 
+            "name": "Headache (784.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 53.27704061119999, 
+            "name": "Other acute sinusitis (461.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Other screening mammogram (V76.12)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 120.627261761, 
+            "name": "Streptococcal sore throat (034.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Other chronic sinusitis (473.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Ulcerative colitis, unspecified (556.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 361.881785283, 
+            "name": "Acute sinusitis                                                                                                                                                                                                                                                 (461)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Corticoadrenal insufficiency (255.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Generalized convulsive epilepsy, without mention of intractable epilepsy (345.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Painful respiration (786.52)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Nonspecific abnormal findings in stool contents (792.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Family history of malignant neoplasm of gastrointestinal tract (V16.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 108.564535585, 
+            "name": "Major depressive disorder, recurrent episode, moderate degree (296.32)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Idiopathic urticaria (708.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 48.2509047045, 
+            "name": "Alzheimer's disease (331.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 91.4756735022, 
+            "name": "General medical exam                                                                                                                                                                                                                                            (V70)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Osteoarthrosis, localized, primary, involving hand (715.14)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Acute laryngitis without mention of obstruction (464.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Special investigations and exams                                                                                                                                                                                                                                (V72)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Sprain of unspecified site of hip and thigh (843.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Contusion of chest wall (922.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Leukocytopenia, unspecified (288.50)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Sprains and strains of shoulder and upper arm                                                                                                                                                                                                                   (840)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Gross hematuria (599.71)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 162.846803378, 
+            "name": "Allergy, unspecified, not elsewhere classified (995.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 242.25975070400003, 
+            "name": "Palpitations (785.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 78.4077201448, 
+            "name": "Conjunctivitis, unspecified (372.30)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 71.3711298754, 
+            "name": "External hemorrhoids without mention of complication (455.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 236.228387616, 
+            "name": "Dysuria (788.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 50.261359067099995, 
+            "name": "Unspecified internal derangement of knee (717.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 36.18817852829999, 
+            "name": "Nevus, non-neoplastic (448.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 58.30317651789999, 
+            "name": "Unspecified hemorrhoids without mention of complication (455.6)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Adjustment disorder with anxiety (309.24)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Degeneration of thoracic or thoracolumbar intervertebral disc (722.51)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Insomnia due to medical condition classified elsewhere (327.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Alopecia, unspecified (704.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 412.143144351, 
+            "name": "Cervicalgia (723.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 142.742259751, 
+            "name": "Tension headache (307.81)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 1574.18576598, 
+            "name": "Routine general medical examination at a health care facility (V70.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Multiple sclerosis (340)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Tricuspid valve disorders, specified as nonrheumatic (424.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Goiter, unspecified (240.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Other and unspecified disc disorder of cervical region (722.91)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Viral pneumonia, unspecified (480.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Enthesopathy of knee, unspecified (726.60)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Impetigo (684)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 45.2352231604, 
+            "name": "Dysfunction of Eustachian tube (381.81)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 53.27704061119999, 
+            "name": "Migraine, unspecified, without mention of intractable migraine without mention of status migrainosus (346.90)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 200.04020908700002, 
+            "name": "Symptomatic menopausal or female climacteric states (627.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Postnasal drip (784.91)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 46.2404503418, 
+            "name": "Tietze's disease (733.6)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 346.8033775630001, 
+            "name": "Acute pharyngitis (462.)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Vomiting alone (787.03)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 93.48612786489998, 
+            "name": "Pain in thoracic spine (724.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 124.648170487, 
+            "name": "Candidiasis of vulva and vagina (112.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Lipoma of other skin and subcutaneous tissue (214.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 94.49135504620001, 
+            "name": "Fever, unspecified (780.60)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 181.946119823, 
+            "name": "Allergic rhinitis due to pollen (477.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 63.3293124246, 
+            "name": "Lump or mass in breast (611.72)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 71.3711298754, 
+            "name": "Screening for malignant neoplasms of the cervix (V76.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Opioid type dependence, unspecified use (304.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Paroxysmal supraventricular tachycardia (427.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Pregnancy examination or test, positive result (V72.42)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Urethritis, unspecified (597.80)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Other and unspecified alcohol dependence, continuous drinking behavior (303.91)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Idiopathic osteoporosis (733.02)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 56.2927221552, 
+            "name": "Acute gastritis                                                                                                                                                                                                                                                 (535.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Dyspareunia (625.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Unspecified hypertrophic and atrophic conditions of skin (701.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 48.2509047045, 
+            "name": "Adjustment disorder with depressed mood (309.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Other specified viral warts (078.19)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Viral warts                                                                                                                                                                                                                                                     (078.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 32.167269803, 
+            "name": "Localized superficial swelling, mass, or lump (782.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Acute conjunctivitis                                                                                                                                                                                                                                            (372.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 80.41817450740001, 
+            "name": "History of tobacco use (V15.82)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Body Mass Index between 19-24, adult (V85.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Labyrinthitis, unspecified (386.30)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 153.79975874500002, 
+            "name": "Unspecified otitis media (382.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 49.2561318858, 
+            "name": "Asthma, unspecified                                                                                                                                                                                                                                             (493.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 49.2561318858, 
+            "name": "Pain in joint involving upper arm (719.42)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Sacroiliitis, not elsewhere classified (720.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 50.261359067099995, 
+            "name": "Hematuria, unspecified (599.70)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Unspecified acute reaction to stress (308.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 50.261359067099995, 
+            "name": "Unspecified urticaria (708.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 75.3920386007, 
+            "name": "Degeneration of cervical intervertebral disc (722.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Menopausal and postmenopausal disorders                                                                                                                                                                                                                         (627)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 791.113791717, 
+            "name": "Anxiety state, unspecified (300.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Acute upper respiratory infection of multiple or unspecified sites                                                                                                                                                                                              (465)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 779.0510655410001, 
+            "name": "Acute sinusitis, unspecified (461.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 76.39726578209999, 
+            "name": "Disorder of bone and cartilage, unspecified (733.90)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 76.39726578209999, 
+            "name": "Displacement of lumbar intervertebral disc without myelopathy (722.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Lyme disease (088.81)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Ankle sprain                                                                                                                                                                                                                                                    (845.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "External hemorrhoids with other complication (455.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Herpetic gingivostomatitis (054.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Bunion (727.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 102.53317249700001, 
+            "name": "Microscopic hematuria (599.72)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 60.31363088060001, 
+            "name": "Herpes simplex without mention of complication (054.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 43.2247687977, 
+            "name": "Unspecified site of ankle sprain (845.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 69.36067551270001, 
+            "name": "Rosacea (695.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 95.4965822276, 
+            "name": "Vaginitis and vulvovaginitis                                                                                                                                                                                                                                    (616.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 53.27704061119999, 
+            "name": "Other general medical examination for administrative purposes (V70.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Other lymphedema (457.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Benign neoplasm of skin of other and unspecified parts of face (216.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 54.2822677925, 
+            "name": "Other and unspecified noninfectious gastroenteritis and colitis (558.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 36.18817852829999, 
+            "name": "Other and unspecified ovarian cyst (620.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 36.18817852829999, 
+            "name": "Need for prophylactic vaccination and inoculation against viral hepatitis (V05.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 45.2352231604, 
+            "name": "Unspecified menopausal and postmenopausal disorder (627.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Chronic serous otitis media, simple or unspecified (381.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 37.193405709699995, 
+            "name": "Oral aphthae (528.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Abdominal pain, periumbilic (789.05)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Mitral valve disorders (424.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Other seborrheic keratosis (702.19)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Nonallopathic lesions of cervical region, not elsewhere classified (739.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 75.3920386007, 
+            "name": "Herpes simplex                                                                                                                                                                                                                                                  (054)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Dental caries (521.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Acquired absence of both cervix and uterus (V88.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 38.198632890999995, 
+            "name": "Tonsillitis, acute (463)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Acute suppurative otitis media                                                                                                                                                                                                                                  (382.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Ganglion of tendon sheath (727.42)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 48.2509047045, 
+            "name": "Brachial neuritis or radiculitis NOS (723.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 48.2509047045, 
+            "name": "Sprain of unspecified site of knee and leg (844.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 39.2038600724, 
+            "name": "Helicobacter pylori [H. pylori] infection in conditions classified elsewhere and of unspecified site (041.86)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 49.2561318858, 
+            "name": "Polycystic ovaries (256.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 109.569762766, 
+            "name": "Acute serous otitis media (381.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 50.261359067099995, 
+            "name": "Chronic fatigue syndrome (780.71)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Family history of stroke (cerebrovascular) (V17.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Other enthesopathy of ankle and tarsus (726.79)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 427.221552071, 
+            "name": "Pharyngitis, acute (462)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 61.3188580619, 
+            "name": "Contact dermatitis and other eczema due to plants [except food] (692.6)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 41.21431443510001, 
+            "name": "Leiomyoma of uterus, unspecified (218.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Deviated nasal septum (470.)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Major depressive disorder, recurrent episode, severe degree, without mention of psychotic behavior (296.33)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Epilepsy, unspecified                                                                                                                                                                                                                                           (345.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Alcohol abuse, episodic drinking behavior (305.02)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 107.55930840399998, 
+            "name": "Other diseases of nasal cavity and sinuses (478.19)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 108.564535585, 
+            "name": "Enlargement of lymph nodes (785.6)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 76.39726578209999, 
+            "name": "Need for prophylactic vaccination with combined diphtheria-tetanus-pertussis [DTP] [DTaP] vaccine (V06.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 87.4547647768, 
+            "name": "Viral warts, unspecified (078.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 66.3449939686, 
+            "name": "Genital herpes, unspecified (054.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Umbilical hernia without mention of obstruction or gangrene (553.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Enthesopathy of specified site (726.90)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Genital herpes                                                                                                                                                                                                                                                  (054.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 173.90430237200002, 
+            "name": "Vaginitis and vulvovaginitis, unspecified (616.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Acute mucoid otitis media (381.02)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Unspecified sleep disturbance (780.50)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Deviated nasal septum (470)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 62.3240852433, 
+            "name": "Irregular menstrual cycle (626.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 413.14837153199994, 
+            "name": "Routine gynecological examination (V72.31)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Precordial pain (786.51)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Contact dermatitis and oth eczema due to other specified agents (692.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 88.45999195819999, 
+            "name": "Migraine without aura, without mention of intractable migraine without mention of status migrainosus (346.10)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 254.32247688, 
+            "name": "Elevated blood pressure reading without diagnosis of hypertension (796.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 51.266586248500005, 
+            "name": "Common migraine                                                                                                                                                                                                                                                 (346.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 65.3397667873, 
+            "name": "Unspecified symptom associated with female genital organs (625.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Nonallopathic lesions of thoracic region, not elsewhere classified (739.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 27.141133896299998, 
+            "name": "Premenstrual tension syndromes (625.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 41.21431443510001, 
+            "name": "Extrinsic asthma                                                                                                                                                                                                                                                (493.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 84.4390832328, 
+            "name": "Panic disorder without agoraphobia (300.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 56.2927221552, 
+            "name": "Acute allergic serous otitis media (381.04)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 29.1515882589, 
+            "name": "Chronic prostatitis (601.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 29.1515882589, 
+            "name": "Encounter for unspecified contraceptive management (V25.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 44.229995979099996, 
+            "name": "Screening examination for pulmonary tuberculosis (V74.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Nonallopathic lesions of lumbar region, not elsewhere classified (739.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 60.31363088060001, 
+            "name": "Encounter for therapeutic drug monitoring (V58.83)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Other premature beats (427.69)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Family history of other cardiovascular diseases (V17.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 46.2404503418, 
+            "name": "Dysmenorrhea (625.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Encounter for surveillance of other contraceptive method (V25.49)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Systemic lupus erythematosus (710.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Epilepsy                                                                                                                                                                                                                                                        (345)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 49.2561318858, 
+            "name": "Thyrotoxicosis without mention of goiter or other cause, and without mention of thyrotoxic crisis or storm (242.90)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 33.1724969843, 
+            "name": "Encounter for surveillance of contraceptive pill (V25.41)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 33.1724969843, 
+            "name": "Plantar wart (078.12)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 50.261359067099995, 
+            "name": "Unspecified sinusitis (chronic) (473.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Predominant disturbance of emotions (308.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 119.62203458, 
+            "name": "Gynecological examination (V72.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Need for prophylactic vaccination with tetanus toxoid alone (V03.7)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Postlaminectomy syndrome of lumbar region (722.83)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Other chronic cystitis (595.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Insect bite, nonvenomous, of hip, thigh, leg, and ankle, without mention of infection (916.4)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 53.27704061119999, 
+            "name": "Major depressive disorder, recurrent episode, unspecified degree (296.30)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 18.0940892642, 
+            "name": "Mood disorder in conditions classified elsewhere (293.83)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Achilles bursitis or tendinitis (726.71)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Opioid type dependence, continuous use (304.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Sprain of unspecified site of wrist (842.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Family history of malignant neoplasm of breast (V16.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 40.209087253700005, 
+            "name": "Migraine with aura, without mention of intractable migraine without mention of status migrainosus (346.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Condyloma acuminatum (078.11)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 61.3188580619, 
+            "name": "Screening for diabetes mellitus (V77.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 143.74748693200002, 
+            "name": "Migraine                                                                                                                                                                                                                                                        (346)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 82.4286288701, 
+            "name": "Attention deficit disorder of childhood with hyperactivity (314.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 104.54362686, 
+            "name": "Absence of menstruation (626.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Pregnancy examination or test, negative result (V72.41)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Lumbosacral (joint) (ligament) sprain (846.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Displacement of cervical intervertebral disc without myelopathy (722.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 23.1202251709, 
+            "name": "Other specified counseling (V65.49)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Other acute reactions to stress (308.3)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 24.125452352199996, 
+            "name": "Opioid type dependence                                                                                                                                                                                                                                          (304.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 49.2561318858, 
+            "name": "Excessive or frequent menstruation (626.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "General counseling and advice for contraceptive management (V25.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 26.135906714899996, 
+            "name": "Chronic lymphocytic thyroiditis (245.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Other disorders of menstruation and other abnormal bleeding from female genital tract (626.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Contact with or exposure to venereal diseases (V01.6)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 57.2979493366, 
+            "name": "Migraine, unspecified                                                                                                                                                                                                                                           (346.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 31.162042621599998, 
+            "name": "Pityriasis versicolor (111.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 31.162042621599998, 
+            "name": "Anal fissure (565.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 31.162042621599998, 
+            "name": "Scoliosis [and kyphoscoliosis], idiopathic (737.30)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Metrorrhagia (626.6)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Encounter for contraceptive surveillance, unspecified (V25.40)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 151.789304383, 
+            "name": "Other acne (706.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 76.39726578209999, 
+            "name": "Encounter for general counseling on prescription of oral contraceptives (V25.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 54.2822677925, 
+            "name": "Acute tonsillitis (463.)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 136.710896663, 
+            "name": "Attention deficit disorder of childhood without mention of hyperactivity (314.00)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 30.156815440300004, 
+            "name": "Screening for lipoid disorders (V77.91)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 15.078407720100001, 
+            "name": "Major depressive disorder, recurrent episode, severe degree, specified as with psychotic behavior (296.34)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Screening for thyroid disorders (V77.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 42.2195416164, 
+            "name": "Screening examination for venereal disease (V74.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 29.1515882589, 
+            "name": "Opioid abuse, continuous use (305.51)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Contact with or exposure to unspecified communicable disease (V01.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 21.1097708082, 
+            "name": "Encounter for general counseling on initiation of other contraceptive measures (V25.02)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 16.0836349015, 
+            "name": "Papanicolaou smear of cervix with atypical squamous cells of undetermined significance (ASC-US) (795.01)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 36.18817852829999, 
+            "name": "Routine infant or child health check (V20.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 34.1777241657, 
+            "name": "Supervision of normal first pregnancy (V22.0)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 81.4234016888, 
+            "name": "Supervision of other normal pregnancy (V22.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 28.1463610776, 
+            "name": "Pregnant state, incidental (V22.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 55.2874949739, 
+            "name": "Routine postpartum follow-up (V24.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 32.167269803, 
+            "name": "Encounter for other general counseling and advice on contraceptive management (V25.09)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 20.1045436269, 
+            "name": "Health examination of defined subpopulations (V70.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 25.130679533600002, 
+            "name": "Encounter for insertion of intrauterine contraceptive device (V25.1)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 35.182951347, 
+            "name": "Encounter for surveillance of intrauterine contraceptive device (V25.42)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Variants of migraine                                                                                                                                                                                                                                            (346.2)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 19.099316445499998, 
+            "name": "Other specified iron deficiency anemias (280.8)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Torticollis, unspecified (723.5)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 22.114997989499994, 
+            "name": "Other  and unspecified episodic mood disorder                                                                                                                                                                                                                   (296.9)", 
+            "bins": "Low"
+        }, 
+        {
+            "value": 17.0888620828, 
+            "name": "Chondromalacia of patella (717.7)", 
+            "bins": "Low"
+        }
+    ]
+}
